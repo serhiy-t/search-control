@@ -1,4 +1,4 @@
-source "http://rubygems.org"
+source "https://rubygems.org"
 
 # Declare your gem's dependencies in search-control.gemspec.
 # Bundler will treat runtime dependencies like base dependencies, and
@@ -15,3 +15,7 @@ gem "jquery-rails"
 
 # To use debugger
 # gem 'debugger'
+
+gem "coffee-script", "~> 2.2.0"
+gem "haml", "~> 4.0.3"
+gem "sass-rails"

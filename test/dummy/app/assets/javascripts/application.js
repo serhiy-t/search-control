@@ -12,4 +12,9 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require search-control
 //= require_tree .
+
+$(function() {
+    $.search_control()
+});
